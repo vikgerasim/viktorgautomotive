@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import { buildSearchIndex } from "@/lib/search";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -23,6 +23,16 @@
       "type": "tool"
     },
     {
+      "name": "OEM Toyota timing chain tensioner gasket",
+      "amazonUrl": "https://ebay.us/JmDg6S",
+      "type": "part"
+    },
+    {
+      "name": "OEM Toyota water outlet gaskets x 2",
+      "amazonUrl": "https://ebay.us/41PqBz",
+      "type": "part"
+    },
+    {
       "name": "OEM Toyota right valve cover gasket",
       "amazonUrl": "https://amzn.to/4eRbdxs",
       "type": "part"
@@ -63,6 +73,11 @@
       "type": "part"
     },
     {
+      "name": "OEM Toyota camshaft cap small O-rings x 4",
+      "amazonUrl": "https://ebay.us/K8qVkZ",
+      "type": "part"
+    },
+    {
       "name": "OEM Toyota camshaft cap figure 8 O-rings x 4",
       "amazonUrl": "https://amzn.to/4bEfnpQ",
       "type": "part"
@@ -70,7 +85,7 @@
     {
       "name": "OEM Toyota oil cooler O-rings x 2",
       "amazonUrl": "https://amzn.to/3zEfkgg",
-      "type": "tool"
+      "type": "part"
     },
     {
       "name": "OEM Toyota intake manifold gaskets x 2",
@@ -80,7 +95,7 @@
     {
       "name": "Aisin (OEM Toyota supplier) water pump/gasket kit",
       "amazonUrl": "https://amzn.to/46LXsuE",
-      "type": "part"
+      "type": "tool"
     },
     {
       "name": "OEM Toyota water pump gasket (if not replacing the pump)",

@@ -8,8 +8,18 @@
   "years": "",
   "items": [
     {
+      "name": "KOYO (OEM Toyota supplier) wheel bearing",
+      "amazonUrl": "https://ebay.us/yyt58X",
+      "type": "part"
+    },
+    {
       "name": "Aftermarket wheel bearing with hub and bolts",
       "amazonUrl": "https://amzn.to/3UQSHx5",
+      "type": "part"
+    },
+    {
+      "name": "KOYO (OEM Toyota supplier) wheel bearing with hub and bolts",
+      "amazonUrl": "https://ebay.us/H4dUI0",
       "type": "part"
     },
     {
@@ -20,6 +30,11 @@
     {
       "name": "OEM Toyota bearing outer seal",
       "amazonUrl": "https://amzn.to/3A5CBbn",
+      "type": "part"
+    },
+    {
+      "name": "OEM Toyota bearing inner knuckle seal",
+      "amazonUrl": "https://ebay.us/6kbH3l",
       "type": "part"
     },
     {

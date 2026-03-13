@@ -40,21 +40,41 @@ function extractMake(title) {
 function extractItems(description) {
   const lines = description.split("\n");
   const items = [];
-  const urlRegex = /https:\/\/amzn\.to\/\S+/;
+  const amazonRegex = /https:\/\/amzn\.to\/\S+/;
+  const ebayRegex = /https:\/\/ebay\.us\/\S+/;
 
   for (const line of lines) {
-    const urlMatch = line.match(urlRegex);
+    const amazonMatch = line.match(amazonRegex);
+    const ebayMatch = line.match(ebayRegex);
+    const urlMatch = amazonMatch || ebayMatch;
     if (!urlMatch) continue;
 
-    const amazonUrl = urlMatch[0];
-    const name = line.replace(urlRegex, "").replace(/[:：]/g, "").trim();
+    const name = line
+      .replace(amazonRegex, "")
+      .replace(ebayRegex, "")
+      .replace(/[:：]/g, "")
+      .trim();
     if (!name) continue;
 
     const nameLower = name.toLowerCase();
-    const partKeywords = ["sensor", "filter", "fluid", "pad", "rotor", "bulb", "battery", "resistor", "washer", "belt", "gasket", "seal", "bearing", "shock", "strut", "spring", "valve", "pump", "hose", "cap", "cover"];
-    const type = partKeywords.some((k) => nameLower.includes(k)) ? "part" : "tool";
 
-    items.push({ name, amazonUrl, type });
+    const toolKeywords = [
+      "tool", "wrench", "driver", "socket", "pliers", "ratchet",
+      "screwdriver", "hammer", "puller", "installer", "remover",
+      "kit", "light", "multimeter", "scanner", "gauge", "jack", "stand"
+    ];
+    const partKeywords = [
+      "sensor", "filter", "fluid", "pad", "rotor", "bulb", "battery",
+      "resistor", "washer", "belt", "gasket", "seal", "bearing", "shock",
+      "strut", "spring", "valve", "pump", "hose", "cap", "cover",
+      "o-ring", "plug", "tube", "insert", "blade"
+    ];
+
+    const isTool = toolKeywords.some((k) => nameLower.includes(k));
+    const isPart = partKeywords.some((k) => nameLower.includes(k));
+    const type = isTool ? "tool" : isPart ? "part" : "tool";
+
+    items.push({ name, amazonUrl: urlMatch[0], type });
   }
 
   return items;

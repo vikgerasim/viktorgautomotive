@@ -51,6 +51,12 @@ export default async function VideoPage({ params }: PageProps) {
         />
       </div>
 
+        {(parts.length > 0 || tools.length > 0) && (
+        <p className="text-s text-gray-400 mb-4">
+            As an Amazon Associate I earn from qualifying purchases. Product links below are affiliate links at no extra cost to you.
+        </p>
+        )}
+
       {parts.length > 0 && (
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4">Parts Needed</h2>
