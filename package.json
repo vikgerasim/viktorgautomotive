@@ -10,6 +10,7 @@
     "import": "node --env-file=.env.local scripts/import-videos.mjs"
   },
   "dependencies": {
+    "fuse.js": "^7.1.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
