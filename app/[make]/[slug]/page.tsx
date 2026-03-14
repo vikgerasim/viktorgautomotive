@@ -144,7 +144,7 @@ export default async function VideoPage({ params }: PageProps) {
                 name: video.title,
                 description: video.description,
                 thumbnailUrl: `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
-                uploadDate: new Date().toISOString(),
+                uploadDate: video.publishedAt,
                 embedUrl: `https://www.youtube.com/embed/${video.youtubeId}`,
                 url: `https://www.viktorgautomotive.com/${video.make}/${video.slug}`,
               },

@@ -59,15 +59,52 @@ function extractItems(description) {
     const nameLower = name.toLowerCase();
 
     const toolKeywords = [
-      "tool", "wrench", "driver", "socket", "pliers", "ratchet",
-      "screwdriver", "hammer", "puller", "installer", "remover",
-      "kit", "light", "multimeter", "scanner", "gauge", "jack", "stand"
+      "tool",
+      "wrench",
+      "driver",
+      "socket",
+      "pliers",
+      "ratchet",
+      "screwdriver",
+      "hammer",
+      "puller",
+      "installer",
+      "remover",
+      "kit",
+      "light",
+      "multimeter",
+      "scanner",
+      "gauge",
+      "jack",
+      "stand",
     ];
     const partKeywords = [
-      "sensor", "filter", "fluid", "pad", "rotor", "bulb", "battery",
-      "resistor", "washer", "belt", "gasket", "seal", "bearing", "shock",
-      "strut", "spring", "valve", "pump", "hose", "cap", "cover",
-      "o-ring", "plug", "tube", "insert", "blade"
+      "sensor",
+      "filter",
+      "fluid",
+      "pad",
+      "rotor",
+      "bulb",
+      "battery",
+      "resistor",
+      "washer",
+      "belt",
+      "gasket",
+      "seal",
+      "bearing",
+      "shock",
+      "strut",
+      "spring",
+      "valve",
+      "pump",
+      "hose",
+      "cap",
+      "cover",
+      "o-ring",
+      "plug",
+      "tube",
+      "insert",
+      "blade",
     ];
 
     const isTool = toolKeywords.some((k) => nameLower.includes(k));
@@ -91,18 +128,21 @@ async function getChannelId() {
 
 async function getExcludedVideoIds() {
   const ids = new Set();
-  let pageToken = "";
+  const playlists = EXCLUDE_PLAYLIST.split(",");
 
-  do {
-    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=${EXCLUDE_PLAYLIST}&maxResults=50&pageToken=${pageToken}&key=${API_KEY}`;
-    const data = await httpsGet(url);
-    for (const item of data.items || []) {
-      ids.add(item.contentDetails.videoId);
-    }
-    pageToken = data.nextPageToken || "";
-  } while (pageToken);
+  for (const playlistId of playlists) {
+    let pageToken = "";
+    do {
+      const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=${playlistId.trim()}&maxResults=50&pageToken=${pageToken}&key=${API_KEY}`;
+      const data = await httpsGet(url);
+      for (const item of data.items || []) {
+        ids.add(item.contentDetails.videoId);
+      }
+      pageToken = data.nextPageToken || "";
+    } while (pageToken);
+  }
 
-  console.log(`Found ${ids.size} videos to exclude from racing playlist`);
+  console.log(`Found ${ids.size} videos to exclude across all playlists`);
   return ids;
 }
 
@@ -176,6 +216,7 @@ async function main() {
       make,
       title,
       youtubeId,
+      publishedAt: video.snippet.publishedAt,
       description: description.split("\n")[0].trim(),
       models: [],
       years: "",

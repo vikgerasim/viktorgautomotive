@@ -116,6 +116,7 @@ async function main() {
     make,
     title,
     youtubeId,
+    publishedAt: video.snippet.publishedAt,
     description: description.split("\n")[0].trim(),
     models: [],
     years: "",

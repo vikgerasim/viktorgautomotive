@@ -15,7 +15,8 @@ export type Video = {
   make: string;
   title: string;
   youtubeId: string;
-
+  publishedAt: string;
+  
   // SEO
   description: string;
 
