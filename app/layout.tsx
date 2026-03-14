@@ -26,16 +26,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} antialiased`}>
-        <header className="border-b border-gray-200 bg-white sticky top-0 z-40">
-          <div className="max-w-4xl mx-auto px-4 py-3 flex items-center gap-6">
-            <Link href="/" className="font-bold text-gray-900 whitespace-nowrap">
-              Viktor G Automotive
+        <header className="bg-black border-b-4 border-red-600 sticky top-0 z-50">
+          <div className="max-w-5xl mx-auto px-6 py-3 flex items-center gap-6">
+            <Link href="/" className="font-bold text-xl tracking-widest uppercase text-white whitespace-nowrap">
+              Viktor<span className="text-red-500"> G</span> Automotive
             </Link>
-            <SearchBar index={searchIndex} />
-            <nav className="hidden md:flex items-center gap-4 text-sm whitespace-nowrap">
-              <Link href="/lexus" className="text-gray-600 hover:text-blue-600 transition-colors">Lexus</Link>
-              <Link href="/toyota" className="text-gray-600 hover:text-blue-600 transition-colors">Toyota</Link>
-              <Link href="/acura" className="text-gray-600 hover:text-blue-600 transition-colors">Acura</Link>
+            <div className="flex-1 max-w-md">
+              <SearchBar index={searchIndex} />
+            </div>
+            <nav className="flex items-center gap-6 ml-auto">
+              {["lexus", "toyota", "acura"].map((make) => (
+                <Link key={make} href={`/${make}`} className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors">
+                  {make}
+                </Link>
+              ))}
             </nav>
           </div>
         </header>

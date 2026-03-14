@@ -10,6 +10,7 @@ export type SearchResult = {
   years: string;
   models: string[];
   expandedYears: string[];
+  searchText: string;
 };
 
 function expandYearRange(years: string): string[] {
@@ -26,28 +27,38 @@ function expandYearRange(years: string): string[] {
 
 export function buildSearchIndex(): SearchResult[] {
   const videos = getAllVideos();
-  return videos.map((video: Video) => ({
-    title: video.title,
-    slug: video.slug,
-    make: video.make,
-    youtubeId: video.youtubeId,
-    years: video.years,
-    models: video.models,
-    expandedYears: expandYearRange(video.years),
-  }));
+  return videos.map((video: Video) => {
+    const expandedYears = expandYearRange(video.years);
+    return {
+      title: video.title,
+      slug: video.slug,
+      make: video.make,
+      youtubeId: video.youtubeId,
+      years: video.years,
+      models: video.models,
+      expandedYears,
+      // searchText combines everything into one searchable string
+      searchText: [
+        video.title,
+        video.make,
+        ...expandedYears,
+        ...(video.models || []),
+      ].join(" "),
+    };
+  });
 }
 
 export function createFuseInstance(index: SearchResult[]) {
   return new Fuse(index, {
     keys: [
-      { name: "title", weight: 0.5 },
-      { name: "models", weight: 0.2 },
-      { name: "expandedYears", weight: 0.25 },
-      { name: "make", weight: 0.05 },
+      { name: "searchText", weight: 0.7 },
+      { name: "title", weight: 0.2 },
+      { name: "expandedYears", weight: 0.1 },
     ],
-    threshold: 0.3,
+    threshold: 0.4,
     includeScore: true,
     ignoreLocation: true,
     minMatchCharLength: 2,
+    useExtendedSearch: true,
   });
 }
