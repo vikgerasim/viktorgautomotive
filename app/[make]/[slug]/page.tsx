@@ -18,6 +18,27 @@ export async function generateMetadata({ params }: PageProps) {
   return {
     title: `${video.title} | Viktor G Automotive`,
     description: video.description,
+    openGraph: {
+      title: video.title,
+      description: video.description,
+      url: `https://www.viktorgautomotive.com/${video.make}/${video.slug}`,
+      siteName: "Viktor G Automotive",
+      images: [
+        {
+          url: `https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`,
+          width: 1280,
+          height: 720,
+          alt: video.title,
+        },
+      ],
+      type: "video.other",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: video.title,
+      description: video.description,
+      images: [`https://img.youtube.com/vi/${video.youtubeId}/maxresdefault.jpg`],
+    },
   };
 }
 
