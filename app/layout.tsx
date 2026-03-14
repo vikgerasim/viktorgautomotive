@@ -14,7 +14,8 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: "Viktor G Automotive | Expert Car Repair Guides",
-  description: "Expert car repair and maintenance guides from a Master Automotive Technician with 20+ years of experience.",
+  description:
+    "Expert car repair and maintenance guides from a Master Automotive Technician with 20+ years of experience.",
 };
 
 export default function RootLayout({
@@ -29,15 +30,22 @@ export default function RootLayout({
       <body className={`${geistSans.variable} antialiased`}>
         <header className="bg-black border-b-4 border-red-600 sticky top-0 z-50">
           <div className="max-w-5xl mx-auto px-6 py-3 flex items-center gap-6">
-            <Link href="/" className="font-bold text-xl tracking-widest uppercase text-white whitespace-nowrap">
-              Viktor<span className="text-red-500"> G</span> Automotive
+            <Link
+              href="/"
+              className="font-bold text-xl tracking-widest uppercase text-white whitespace-nowrap"
+            >
+              Viktor <span className="text-red-500">G</span> Automotive
             </Link>
             <div className="flex-1 max-w-md">
               <SearchBar index={searchIndex} />
             </div>
             <nav className="flex items-center gap-6 ml-auto">
               {["lexus", "toyota", "acura"].map((make) => (
-                <Link key={make} href={`/${make}`} className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors">
+                <Link
+                  key={make}
+                  href={`/${make}`}
+                  className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors"
+                >
                   {make}
                 </Link>
               ))}
@@ -45,6 +53,7 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <Footer />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
           strategy="afterInteractive"
@@ -57,7 +66,6 @@ export default function RootLayout({
             gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
           `}
         </Script>
-        <Footer />
       </body>
     </html>
   );
