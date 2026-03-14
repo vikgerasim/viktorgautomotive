@@ -33,7 +33,7 @@ export default async function MakePage({ params }: PageProps) {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-2">{makeName} Repair Guides</h1>
+      <h1 className="text-2xl font-bold mb-2 pb-2 border-b-2 border-red-600">{makeName} Repair Guides</h1>
       <p className="text-gray-600 mb-8">
         Expert {makeName} repair and maintenance guides from Master Technician Viktor G.
       </p>
@@ -43,7 +43,7 @@ export default async function MakePage({ params }: PageProps) {
           <Link
             key={video.slug}
             href={`/${video.make}/${video.slug}`}
-            className="block p-4 border rounded-lg hover:border-blue-500 hover:shadow-sm transition-all"
+            className="block p-4 bg-white border border-gray-200 rounded-lg border-l-4 border-l-transparent hover:border-l-red-500 hover:bg-red-50 transition-all shadow-sm"
           >
             <div className="flex gap-4 items-start">
               <Image
@@ -55,7 +55,7 @@ export default async function MakePage({ params }: PageProps) {
               />
               <div>
                 <h2 className="font-semibold text-gray-900">{video.title}</h2>
-                <p className="text-sm text-gray-500 mt-1">{video.description}</p>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-2">{video.description}</p>
               </div>
             </div>
           </Link>
