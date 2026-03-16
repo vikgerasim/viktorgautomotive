@@ -15,9 +15,14 @@ export default function Home() {
       {/* Hero */}
       <section className="mb-12">
         <h1 className="text-3xl font-bold mb-2 pb-2 border-b-2 border-red-600">Viktor G Automotive</h1>
-        <p className="text-gray-600 text-lg">
-          Expert car repair and maintenance guides from a Master Automotive
-          Technician with 20+ years of experience.
+        <p className="text-gray-600 mt-3 leading-relaxed">
+          Expert car repair and maintenance guides from a certified Master Technician with 20+ years of professional automotive experience, specializing in Lexus and Toyota vehicles.
+        </p>
+        <p className="text-gray-600 mt-2 leading-relaxed">
+          Every guide on this site is produced by Viktor Gerasimenko personally — a former Lexus dealership shop foreman and holder of Lexus Master Technician and Hybrid Technician certifications.{" "}
+          <Link href="/about" className="text-red-600 hover:underline font-medium">
+            Learn more about Viktor →
+          </Link>
         </p>
       </section>
 

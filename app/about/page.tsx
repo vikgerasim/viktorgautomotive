@@ -63,11 +63,11 @@ export default function AboutPage() {
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-center gap-2">
             <span className="text-red-600 font-bold">→</span>
-            Lexus Master Technician Certification
+            Lexus/Toyota Master Technician Certification
           </li>
           <li className="flex items-center gap-2">
             <span className="text-red-600 font-bold">→</span>
-            Lexus Hybrid Technician Certification
+            Lexus/Toyota Hybrid Technician Certification
           </li>
           <li className="flex items-center gap-2">
             <span className="text-red-600 font-bold">→</span>

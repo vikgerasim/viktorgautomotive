@@ -57,8 +57,11 @@ export default async function VideoPage({ params }: PageProps) {
         <span className="inline-block text-xs font-bold tracking-widest uppercase bg-red-600 text-white px-2 py-1 rounded mb-2 capitalize">
           {video.make}
         </span>
-        <h1 className="text-2xl font-bold mb-2">{video.title}</h1>
-        <p className="text-gray-600">{video.description}</p>
+          <h1 className="text-2xl font-bold mb-2">{video.title}</h1>
+          <p className="text-xs text-gray-400 mb-2">
+            By Viktor G · Certified Master Technician
+          </p>
+          <p className="text-gray-600">{video.description}</p>
       </div>
 
       {/* Video - full width */}
