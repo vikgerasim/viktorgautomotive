@@ -39,17 +39,16 @@ export default function RootLayout({
             <div className="flex-1 max-w-md">
               <SearchBar index={searchIndex} />
             </div>
-            <nav className="flex items-center gap-6 ml-auto">
-              {["lexus", "toyota", "acura"].map((make) => (
-                <Link
-                  key={make}
-                  href={`/${make}`}
-                  className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors"
-                >
-                  {make}
+              <nav className="flex items-center gap-6 ml-auto">
+                {["lexus", "toyota", "acura"].map((make) => (
+                  <Link key={make} href={`/${make}`} className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors">
+                    {make}
+                  </Link>
+                ))}
+                <Link href="/about" className="text-sm font-semibold tracking-widest uppercase text-gray-300 hover:text-white transition-colors">
+                  About
                 </Link>
-              ))}
-            </nav>
+              </nav>
           </div>
         </header>
         {children}

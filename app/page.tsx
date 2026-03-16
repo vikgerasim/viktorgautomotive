@@ -1,4 +1,4 @@
-import { getAllMakes, getAllVideos } from "@/lib/videos";
+import { getAllVideos } from "@/lib/videos";
 import Link from "next/link";
 import Image from "next/image";
 import { Video } from "@/types/video";
@@ -53,11 +53,11 @@ export default function Home() {
                   alt={video.title}
                   width={160}
                   height={90}
-                  className="rounded flex-shrink-0"
+                  className="rounded shrink-0"
                 />
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
-                    <span className="inline-block text-xs font-bold tracking-widest uppercase bg-red-600 text-white px-2 py-0.5 rounded mr-2 capitalize align-middle">
+                    <span className="inline-block text-xs font-bold tracking-widest capitalize bg-red-600 text-white px-2 py-0.5 rounded mr-2 capitalize align-middle">
                       {video.make}
                     </span>
                     {video.title}
