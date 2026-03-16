@@ -53,8 +53,8 @@ export default async function MakePage({ params }: PageProps) {
                 height={90}
                 className="rounded flex-shrink-0"
               />
-              <div>
-                <h2 className="font-semibold text-gray-900">{video.title}</h2>
+              <div className="min-w-0 overflow-hidden">
+                <h2 className="font-semibold text-gray-900 mb-1 break-words">{video.title}</h2>
                 <p className="text-sm text-gray-500 mt-1 line-clamp-2">{video.description}</p>
               </div>
             </div>
