@@ -49,7 +49,7 @@ export default function Header({ searchIndex }: HeaderProps) {
 
         {/* Hamburger button — mobile only */}
         <button
-          className="md:hidden ml-auto text-white p-1"
+          className="md:hidden ml-auto text-white p-0"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -66,7 +66,7 @@ export default function Header({ searchIndex }: HeaderProps) {
       </div>
 
       {/* Mobile search bar */}
-      <div className="md:hidden px-6 pb-3">
+      <div className="md:hidden px-6 pb-3 -mt-2">
         <SearchBar index={searchIndex} />
       </div>
 
