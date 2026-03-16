@@ -19,7 +19,7 @@ export default function Home() {
           Expert car repair and maintenance guides from a certified Master Technician with 20+ years of professional automotive experience, specializing in Lexus and Toyota vehicles.
         </p>
         <p className="text-gray-600 mt-2 leading-relaxed">
-          Every guide on this site is produced by Viktor G personally — a former Lexus dealership shop foreman and holder of Lexus Master Technician and Hybrid Technician certifications.{" "}
+          Every guide on this site is produced by Viktor G personally — a former Lexus dealership shop foreman and holder of Lexus/Toyota Master Technician and Hybrid Technician certifications.{" "}
           <Link href="/about" className="text-red-600 hover:underline font-medium">
             Learn more about Viktor →
           </Link>

@@ -41,7 +41,7 @@ export default function AboutPage() {
       <section className="mb-8">
         <h2 className="text-xl font-bold mb-3">Why I Make These Videos</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Dealership labor rates are high and not every repair requires a professional. Many Lexus and Toyota owners are perfectly capable of doing their own maintenance and repairs with the right guidance. My goal is to provide the same quality of instruction you would get from a certified technician — clear, accurate, and based on real professional experience rather than guesswork.
+          Dealership labor rates are high and not every repair requires a trip to the shop. Many Lexus and Toyota owners are perfectly capable of doing their own maintenance and repairs with the right guidance. As a certified Master Technician with 20+ years of professional experience, my goal is to give you the knowledge and confidence to complete the job to dealership-level quality — right in your own garage.
         </p>
         <p className="text-gray-700 leading-relaxed">
           Every video on this site is produced by me personally. I do not outsource content or rely on manufacturer documentation alone — every procedure shown is one I have performed professionally, often hundreds of times.
