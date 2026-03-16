@@ -5,12 +5,9 @@ import { Video } from "@/types/video";
 
 export default function Home() {
   const makes = ["lexus", "toyota", "acura"];
-  const allVideos = getAllVideos();
-  const recentVideos = [
-    ...allVideos.filter(v => v.make === "lexus"),
-    ...allVideos.filter(v => v.make === "toyota"),
-    ...allVideos.filter(v => v.make === "acura"),
-  ].slice(0, 6);
+  const recentVideos = getAllVideos()
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 6);
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
