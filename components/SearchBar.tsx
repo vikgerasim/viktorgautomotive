@@ -69,7 +69,7 @@ export default function SearchBar({ index }: SearchBarProps) {
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
         placeholder="Search repairs... e.g. 2024 Prius wiper"
-        className="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white placeholder-gray-400 text-sm focus:outline-none focus:border-red-500"
+        className="w-full px-4 py-2 rounded border border-gray-600 bg-gray-800 text-white placeholder-gray-400 text-base focus:outline-none focus:border-red-500"
       />
       {isOpen && results.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 overflow-y-auto">
