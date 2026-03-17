@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
         hostname: "img.youtube.com",
       },
     ],
+    unoptimized: true,
   },
 };
 
