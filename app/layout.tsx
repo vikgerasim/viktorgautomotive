@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
-import { buildSearchIndex } from "@/lib/search";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -21,12 +20,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const searchIndex = buildSearchIndex();
-
   return (
     <html lang="en">
       <body className={`${geistSans.variable} antialiased`}>
-        <Header searchIndex={searchIndex} />
+        <Header />
         {children}
         <Footer />
         <Script

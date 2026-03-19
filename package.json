@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "import": "node --env-file=.env.local scripts/import-videos.mjs",
-    "import-single": "node --env-file=.env.local scripts/import-single.mjs"
+    "import-single": "node --env-file=.env.local scripts/import-single.mjs",
+    "generate-search": "node scripts/generate-search-index.mjs"
   },
   "dependencies": {
     "fuse.js": "^7.1.0",
