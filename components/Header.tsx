@@ -88,7 +88,7 @@ export default function Header() {
           {results.map((result) => (
             <button
               key={result.slug}
-              onClick={() => handleSelect(result)}
+              onMouseDown={() => handleSelect(result)}
               className="w-full flex items-center gap-3 px-4 py-3 hover:bg-red-50 hover:shadow-[inset_4px_0_0_#ef4444] transition-all text-left border-b border-gray-100 last:border-0"
             >
               <Image
