@@ -16,7 +16,7 @@ export default function Home() {
       <section className="mb-12">
         <h1 className="text-3xl font-bold mb-2 pb-2 border-b-2 border-red-600">Viktor G Automotive</h1>
         <p className="text-gray-600 mt-3 leading-relaxed">
-          Expert car repair and maintenance guides from a certified Master Technician with 20+ years of professional automotive experience, specializing in Lexus and Toyota vehicles.
+          Expert Lexus and Toyota repair and maintenance guides from a certified Master Technician with 20+ years of professional automotive experience, specializing in Lexus and Toyota vehicles.
         </p>
         <p className="text-gray-600 mt-2 leading-relaxed">
           Every guide on this site is produced by Viktor G personally — a former Lexus dealership shop foreman and holder of Lexus/Toyota Master Technician and Hybrid Technician certifications.{" "}

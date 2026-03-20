@@ -11,8 +11,15 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Viktor G Automotive | Expert Car Repair Guides",
-  description: "Expert car repair and maintenance guides from a Master Automotive Technician with 20+ years of experience.",
+  title: "Viktor G Automotive | Expert Lexus & Toyota Repair Guides",
+  description: "Expert Lexus and Toyota repair and maintenance guides from a Master Automotive Technician with 20+ years of experience.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
