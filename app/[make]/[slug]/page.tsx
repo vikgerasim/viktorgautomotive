@@ -91,7 +91,7 @@ export default async function VideoPage({ params }: PageProps) {
 
         <div>
           {(parts.length > 0 || tools.length > 0) && (
-            <p className="text-[11.9px] text-gray-400 italic border-t border-gray-200 pt-3 mb-4 whitespace-nowrap">
+            <p className="text-[11.9px] text-gray-400 italic border-t border-gray-200 pt-3 mb-4">
               As an Amazon Associate I earn from qualifying purchases. Product links below are affiliate links at no extra cost to you.
             </p>
           )}
