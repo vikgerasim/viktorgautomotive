@@ -4,36 +4,56 @@
   "title": "2021-2025 Toyota Sienna Hybrid 2nd Row Seat Removal And Airbag Warning Light Disabling Instructions",
   "youtubeId": "-LRqhDpFwxQ",
   "publishedAt": "2024-03-05T19:54:42Z",
-  "description": "Master Technician Viktor G shows the DIY how-to installation and removal procedure of the 2nd row rear seats and the way for how to bypass the SRS system warning light detection due to the airbags and seatbelt pre-tensioners being unplugged/disconnected.",
+  "description": "Remove and reinstall 2023 Toyota Sienna second row seats, including airbag connector handling and SRS system management to prevent warning lights.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Resistors to bypass the airbag warning",
-      "amazonUrl": "https://amzn.to/3wF3OzV",
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": ["17mm"]
+    },
+    {
+      "name": "Trim tool kit",
+      "type": "tool"
+    },
+    {
+      "name": "Impact gun",
+      "type": "tool"
+    },
+    {
+      "name": "Torque wrench",
+      "type": "tool"
+    },
+    {
+      "name": "Airbag bypass resistors",
       "type": "part"
-    },
-    {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
-      "type": "tool"
-    },
-    {
-      "name": "1/2\" drive cordless impact wrench kit",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
-      "type": "tool"
-    },
-    {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
-      "type": "tool"
-    },
-    {
-      "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
-      "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Intermediate",
+  "tips": [
+    "Remove the headrest first to make the seat more compact and easier to maneuver out of the vehicle.",
+    "Disconnect the negative battery terminal before disconnecting any airbag connectors as a safety precaution.",
+    "Install 2.2 ohm resistors into the airbag connectors when the seat is removed to prevent an airbag warning light from appearing.",
+    "Tape resistors in place and route the harness under the front seat so they don't get kicked out during driving.",
+    "When reinstalling, only hand-thread the front bolts first before moving to the rear bolts — fully tightening the front first can prevent the rear bolts from seating properly.",
+    "Move seat carriages to parallel/level positions before reinstalling the seat so the track lines up correctly.",
+    "Reconnect the battery and initialize doors and hatch after reconnecting — refer to the 12V battery removal video for the initialization procedure.",
+    "Check that the wire harness clip teeth are not damaged during removal so they hold the harness properly on reinstall."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Rear seat mounting bolts (long)",
+      "spec": "48",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Front seat mounting bolts (short)",
+      "spec": "48",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

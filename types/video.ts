@@ -1,7 +1,8 @@
 export type AmazonItem = {
   name: string;
-  amazonUrl: string;
   type: "part" | "tool";
+  amazonUrl?: string;
+  sizes?: string[];
 }
 
 export type Timestamp = {
@@ -9,23 +10,26 @@ export type Timestamp = {
   label: string;
 }
 
+export type TorqueSpec = {
+  fastener: string;
+  spec: string;
+  unit: "ft-lbs" | "in-lbs";
+}
+
 export type Video = {
-  // Core identity
   slug: string;
   make: string;
   title: string;
   youtubeId: string;
   publishedAt: string;
-  
-  // SEO
   description: string;
-
-  // Vehicle info
   models: string[];
   years: string;
-
-  // Page content
   items: AmazonItem[];
   timestamps: Timestamp[];
   transcript: string;
+  difficulty?: "Beginner" | "Intermediate" | "Advanced";
+  tips?: string[];
+  torque_specs?: TorqueSpec[];
+  enriched?: boolean;
 }
