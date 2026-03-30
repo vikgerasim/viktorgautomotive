@@ -4,31 +4,34 @@
   "title": "2010-2015 Lexus RX350 RX450h Outer Tail Light Bulb Replacement Instructions",
   "youtubeId": "6jvU0Gkp31E",
   "publishedAt": "2023-07-19T06:20:11Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the outer tail light bulb on 2010–2015 Lexus RX 350 and RX 450h models with steps for accessing and reinstalling the bulb housing.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Ultimate LED upgrade bulb",
-      "amazonUrl": "https://amzn.to/3NUzK95",
-      "type": "part"
-    },
-    {
-      "name": "Upgraded replacement bulb",
-      "amazonUrl": "https://amzn.to/4aOPzYB",
-      "type": "part"
-    },
-    {
-      "name": "Standard replacement bulb",
-      "amazonUrl": "https://amzn.to/3OfbJZT",
+      "name": "Trim and clip removal kit",
       "type": "tool"
     },
     {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
-      "type": "tool"
+      "name": "Bulb type 168",
+      "type": "part"
+    },
+    {
+      "name": "Bulb type 168 LED",
+      "type": "part"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "The cover has an arrow and LH/RH marking — ensure the arrow points up when reinstalling so left and right covers aren't mixed up.",
+    "Disconnect the LED brake light connector before removing the bulb housing to avoid ripping the wires.",
+    "Turn the bulb housing counterclockwise about 1/8 of a turn to release it, and clockwise to reinstall.",
+    "Do not yank the housing — gently manipulate it to avoid damaging the LED brake light wiring.",
+    "Hold the bulb carefully after removal so it doesn't fall into the body cavity.",
+    "The bulb must be oriented correctly before inserting — align it so it slides in the right direction before turning to lock."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }

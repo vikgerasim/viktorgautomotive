@@ -4,26 +4,35 @@
   "title": "2007-2011 Toyota Camry Low Beam Headlight Bulb Replacement Instructions",
   "youtubeId": "oAr0wSx4QdI",
   "publishedAt": "2023-07-19T07:11:30Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the low beam headlight bulb on a 2007 to 2011 Toyota Camry with an H11 bulb, including coolant reservoir cap removal for right-side access.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Budget LED upgrade bulb",
-      "amazonUrl": "https://amzn.to/4rueTuv",
+      "name": "Headlight bulb H11 - Standard",
       "type": "part"
     },
     {
-      "name": "Sylvania LED upgrade bulb",
-      "amazonUrl": "https://amzn.to/3tLyYo0",
+      "name": "Headlight bulb H11 - LED",
       "type": "part"
     },
     {
-      "name": "Standard replacement bulb",
-      "amazonUrl": "https://amzn.to/3KhH7FT",
-      "type": "tool"
+      "name": "Shop towels",
+      "type": "part"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "On the right side of the vehicle, remove the coolant overflow tank cap and reposition the hose to gain more working space.",
+    "Rotate the bulb counterclockwise (viewed from the rear) to remove it from the housing.",
+    "Avoid touching the glass of the new H11 bulb to prevent premature failure.",
+    "Press the tab on the connector to release the bulb from its electrical connector.",
+    "Twist the new bulb clockwise (viewed from the rear) until it stops when installing.",
+    "Push the connector in until it clicks to confirm a secure electrical connection.",
+    "Wipe off any coolant spilled during the process before closing the hood."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }

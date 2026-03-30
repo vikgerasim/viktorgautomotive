@@ -4,16 +4,24 @@
   "title": "How To Manually Open Rear Hatch Liftgate Door With A Dead Battery On 2010-2015 Lexus RX350 RX450h",
   "youtubeId": "4ac2MRcp0Ng",
   "publishedAt": "2023-07-19T07:08:43Z",
-  "description": "Master Technician Viktor G shows the DIY how-to procedure for getting inside the vehicle trunk if the 12V battery is dead.",
+  "description": "Manually open the rear power hatch from inside when the battery is dead on 2010–2015 Lexus RX 350 and RX 450h models.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Auto trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
+      "name": "Trim and clip removal kit",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Use the physical key from the key fob to manually unlock the doors when the battery is dead.",
+    "Fold the rear seat down to crawl into the hatch area and access the manual release.",
+    "A trim tool, key, credit card or similar flat object can be used to pop off the small cover at the bottom center of the hatch interior.",
+    "The manual release lever behind the cover only needs to be pulled by hand — no tools required."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }

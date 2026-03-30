@@ -147,7 +147,7 @@ export default async function VideoPage({ params }: PageProps) {
               <h2 className="text-lg font-bold mb-3 pb-2 border-b-2 border-red-600">Tips & Tricks</h2>
               <ul className="space-y-3">
                 {video.tips.map((tip, index) => (
-                  <li key={index} className="flex items-baseline gap-2 text-sm text-gray-700">
+                  <li key={index} className="flex items-baseline gap-2 text-gray-700">
                     <span className="text-red-600 font-bold flex-shrink-0">→</span>
                     {tip}
                   </li>

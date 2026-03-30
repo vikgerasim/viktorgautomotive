@@ -4,71 +4,126 @@
   "title": "2016-2022 Lexus RX350 Transmission Fluid Replacement Instructions",
   "youtubeId": "vaTORM3T24s",
   "publishedAt": "2023-09-25T00:21:55Z",
-  "description": "Master Technician Viktor G provides instructions for the DIY how-to fluid replacement procedure.",
+  "description": "Replace transmission fluid on 2016 and newer Lexus RX 350 models using an overflow-type level setting system requiring precise fluid temperature control.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Genuine Lexus/Toyota automatic transmission fluid type WS",
-      "amazonUrl": "https://amzn.to/454JymA",
+      "name": "Transmission fluid",
       "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota transmission overflow tube O-ring",
-      "amazonUrl": "https://amzn.to/3RwEdkU",
+      "name": "Drain plug O-ring 90080-30075",
       "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota transmission drain plug O-ring",
-      "amazonUrl": "https://ebay.us/qhWoZ1",
+      "name": "Fill plug gasket 90430-A0003",
       "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota fill plug gasket",
-      "amazonUrl": "https://amzn.to/3PsnVHb",
+      "name": "Overflow tube O-ring 96721-24018",
       "type": "part"
     },
     {
-      "name": "Transmission fluid pump",
-      "amazonUrl": "https://amzn.to/3t6TO0u",
+      "name": "Brake and parts cleaner",
       "type": "part"
     },
     {
-      "name": "3 Ton Jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
+      "name": "Shop towels",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "21mm",
+        "24mm"
+      ]
+    },
+    {
+      "name": "Torx bit set",
+      "type": "tool",
+      "sizes": [
+        "T40"
+      ]
+    },
+    {
+      "name": "Allen key set",
+      "type": "tool",
+      "sizes": [
+        "17mm"
+      ]
+    },
+    {
+      "name": "1/4 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "Sturdy 4 Gallon oil drain pan",
-      "amazonUrl": "https://amzn.to/3Ou4iiu",
+      "name": "3/8 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "Torx bit socket set",
-      "amazonUrl": "https://amzn.to/44JAyUv",
+      "name": "1/2 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "17 mm Allen head/hex bit",
-      "amazonUrl": "https://amzn.to/4584c5n",
+      "name": "Floor jack",
       "type": "tool"
     },
     {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
+      "name": "Jack stands",
       "type": "tool"
     },
     {
-      "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
+      "name": "Scan tool",
       "type": "tool"
     },
     {
-      "name": "Brake and parts cleaner to clean up the spilled oil mess",
-      "amazonUrl": "https://amzn.to/476RZQz",
+      "name": "Fluid pump",
+      "type": "tool"
+    },
+    {
+      "name": "Drain pan",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Intermediate",
+  "tips": [
+    "Always remove the fill plug before draining — if the fill plug is seized, you'll have no way to refill the transmission.",
+    "Lift all four corners of the vehicle so it sits parallel to the ground; an uneven angle will cause incorrect fluid level setting.",
+    "Do not perform this service on a severely slanted driveway.",
+    "Intentionally overfill the transmission slightly so excess fluid overflows during the level-setting procedure — never underfill.",
+    "The fluid temperature must be 35–45°C (95–113°F) during overflow level adjustment; too hot causes underfill, too cold causes overfill.",
+    "If you lack a scan tool, use a metal paper clip or stripped jumper wire to connect terminals 4 and 13 on the DLC3 connector to enter temperature detection mode.",
+    "The D indicator staying solid means fluid is in the correct temperature range; flashing means too hot; off means too cold.",
+    "Lube the drain plug O-ring with fresh transmission fluid before reinstalling.",
+    "Do not replace the overflow tube plug O-ring until the final fluid level adjustment step.",
+    "After lowering the vehicle, confirm the D indicator is still solid before shutting off the engine to verify temperature stayed within range."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Drain plug with overflow tube assembly",
+      "spec": "36",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Fill plug",
+      "spec": "36",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Wheel lug nuts",
+      "spec": "76",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Overflow tube drain plug (level adjustment plug)",
+      "spec": "7",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

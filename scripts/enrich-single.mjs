@@ -65,14 +65,14 @@ async function main() {
   // Store name and type only — no amazonUrl
   // Links are resolved at build time from master lists
   const items = [
+    ...(extracted.parts || []).map((p) => ({
+      name: p.name,
+      type: "part",
+    })),
     ...(extracted.tools || []).map((t) => ({
       name: t.name,
       type: "tool",
       ...(t.sizes?.length > 0 && { sizes: t.sizes }),
-    })),
-    ...(extracted.parts || []).map((p) => ({
-      name: p.name,
-      type: "part",
     })),
   ];
 

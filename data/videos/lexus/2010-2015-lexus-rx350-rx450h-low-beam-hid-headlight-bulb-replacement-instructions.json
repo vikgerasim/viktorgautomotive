@@ -4,36 +4,43 @@
   "title": "2010-2015 Lexus RX350 RX450h Low Beam HID Headlight Bulb Replacement Instructions",
   "youtubeId": "M2s2OBH33jA",
   "publishedAt": "2023-07-21T05:42:47Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the low beam HID headlight bulb on 2010–2015 Lexus RX350 and RX450h, including engine cover removal and spring clip retention.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Replacement Philips HID bulb",
-      "amazonUrl": "https://amzn.to/3Qd7osA",
+      "name": "Small flat-blade screwdriver",
+      "type": "tool"
+    },
+    {
+      "name": "Trim and clip removal kit",
+      "type": "tool"
+    },
+    {
+      "name": "Headlight bulb D4S HID - OEM",
+      "type": "part"
+    },
+        {
+      "name": "Headlight bulb D4S HID - aftermarket ",
       "type": "part"
     },
     {
-      "name": "Auto trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
-      "type": "tool"
-    },
-    {
-      "name": "Replacement aftermarket clips",
-      "amazonUrl": "https://amzn.to/4a662rc",
-      "type": "tool"
-    },
-    {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
-      "type": "tool"
-    },
-    {
-      "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
-      "type": "tool"
+      "name": "Replacement trim clips",
+      "type": "part"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "HID bulbs run at very high voltage — disconnect the battery negative terminal before starting to avoid electrocution.",
+    "On the RX450h hybrid, remove the fuse relay box by pulling the tab to gain access to the headlight area.",
+    "Note the orientation of the round gray cover before removing it — the long tab should point vertically up.",
+    "When pushing trim clip retainers in, you must pop them back out afterward or they won't hold properly.",
+    "The HID bulb has a large square notch and a small semi-circular notch — align these with the matching cutouts in the headlight housing.",
+    "The connector and cover both remove counterclockwise (viewed from the rear) and reinstall clockwise.",
+    "Make sure the hook on the engine cover engages with its cutout when reinstalling."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }

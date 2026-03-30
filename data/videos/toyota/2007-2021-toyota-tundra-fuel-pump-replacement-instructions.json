@@ -4,61 +4,86 @@
   "title": "2007-2021 Toyota Tundra Fuel Pump Replacement Instructions",
   "youtubeId": "opOfwdG0Fho",
   "publishedAt": "2023-09-21T00:13:01Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the fuel pump on a 2007 and up Toyota Tundra, including full tank drop, basket disassembly, pump swap, strainer replacement, and reinstallation.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Denso fuel pump filter/strainer",
-      "amazonUrl": "https://amzn.to/40hop84",
+      "name": "Fuel pump strainer (Denso 95200093)",
       "type": "part"
     },
     {
-      "name": "Fuel pump lock ring removal tool",
-      "amazonUrl": "https://amzn.to/3s7LtcS",
+      "name": "Fuel tank O-ring 77169-0C010",
+      "type": "part"
+    },
+    {
+      "name": "Shop towels",
+      "type": "part"
+    },
+    {
+      "name": "Floor jack",
       "type": "tool"
     },
     {
       "name": "Jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
       "type": "tool"
     },
     {
-      "name": "Floor jack adapter plate",
-      "amazonUrl": "https://amzn.to/47hI3TL",
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "14mm"
+      ]
+    },
+    {
+      "name": "Fuel pump lock ring special service tool",
       "type": "tool"
     },
     {
-      "name": "1/2\" drive cordless DeWALT impact wrench kit",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
+      "name": "Small flat-blade screwdriver",
       "type": "tool"
     },
     {
-      "name": "1/4\" DeWALT impact driver kit",
-      "amazonUrl": "https://amzn.to/3Y1klbe",
+      "name": "Needle-nose pliers",
       "type": "tool"
     },
     {
-      "name": "DeWALT socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Impact driver socket adapter set",
       "type": "tool"
     },
     {
-      "name": "Auto trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
+      "name": "1/2 inch impact gun",
+      "type": "tool"
+    },
+    {
+      "name": "Trim and clip removal kit",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Advanced",
+  "tips": [
+    "Run the tank as low as possible before starting — 100L of fuel weighs over 160 lbs.",
+    "Wear goggles and have a rag or drain pan ready when disconnecting fuel lines, as fuel will spill out.",
+    "When lowering the tank, go slowly to avoid ripping the fuel pump wiring harness connector.",
+    "Do not rotate the pump assembly too much when removing the lock ring, as the float inside the fuel level sensor can break off.",
+    "When the lock ring tabs hit the plastic stoppers, lift each tab with a screwdriver to clear it before continuing to turn.",
+    "Replace the fuel pump strainer (Denso part #95200093) every time — do not reuse the old one.",
+    "Reuse the plastic sleeve on the pump outlet; omitting it will push the O-ring down and cause fuel pressure loss.",
+    "Always pull the old O-ring out from inside the pump housing before installing the new pump.",
+    "Lube the new pump O-ring with gasoline before sliding it on.",
+    "Blow out all dirt, dust, and debris from around the fuel pump top before opening the tank."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }
