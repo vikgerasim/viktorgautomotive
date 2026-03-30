@@ -16,6 +16,11 @@ export type TorqueSpec = {
   unit: "ft-lbs" | "in-lbs";
 }
 
+export type Tip = {
+  text: string;
+  link?: string;
+}
+
 export type Video = {
   slug: string;
   make: string;
@@ -29,7 +34,7 @@ export type Video = {
   timestamps: Timestamp[];
   transcript: string;
   difficulty?: "Beginner" | "Intermediate" | "Advanced";
-  tips?: string[];
+  tips?: Tip[] | string[];
   torque_specs?: TorqueSpec[];
   enriched?: boolean;
 }

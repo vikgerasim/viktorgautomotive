@@ -4,81 +4,129 @@
   "title": "2016-2022 Lexus RX350 And RX450h Rear Brake Pads And Rotors Replacement Instructions",
   "youtubeId": "ZLD7F-gdoUE",
   "publishedAt": "2023-09-24T04:41:37Z",
-  "description": "Master Technician shows the DIY how-to removal, service and installation procedure.",
+  "description": "Replace rear brake pads and service calipers on 2016–2022 Lexus RX 350 and RX 450h, including electric parking brake motor retraction procedure.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Genuine Lexus/Toyota front AND rear brake pads",
-      "amazonUrl": "https://amzn.to/3ZwXMM6",
+      "name": "Brake pads 04465-0E040",
       "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota slider pin rubber grease",
-      "amazonUrl": "https://amzn.to/44Qh9RE",
-      "type": "tool"
-    },
-    {
-      "name": "Genuine Lexus/Toyota caliper grease for between pads and shims",
-      "amazonUrl": "https://amzn.to/471ihnj",
+      "name": "Rubber grease",
       "type": "part"
     },
     {
-      "name": "Brake caliper piston compressor tool",
-      "amazonUrl": "https://amzn.to/3OcShwC",
-      "type": "tool"
-    },
-    {
-      "name": "SUV jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
-      "type": "tool"
-    },
-    {
-      "name": "Thin wrench set to hold the slider pin while unbolting",
-      "amazonUrl": "https://amzn.to/3xLoTZX",
-      "type": "tool"
-    },
-    {
-      "name": "Anti-seize lubricant for the pad slider inserts in the caliper brackets",
-      "amazonUrl": "https://amzn.to/3QcAXdR",
+      "name": "Caliper grease",
       "type": "part"
     },
     {
-      "name": "Small wire brushes for cleaning the caliper brackets",
-      "amazonUrl": "https://amzn.to/3OqlCoC",
+      "name": "Anti-seize compound",
+      "type": "part"
+    },
+    {
+      "name": "M8x1.25 rotor removal bolt",
+      "type": "part"
+    },
+    { 
+      "name": "Compressed Air Duster",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "14mm",
+        "17mm",
+        "19mm",
+        "21mm"
+      ]
+    },
+    {
+      "name": "1/2 inch impact gun",
       "type": "tool"
     },
     {
-      "name": "Large wire brushes for cleaning the hub",
-      "amazonUrl": "https://amzn.to/3OtyGts",
+      "name": "1/2 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "1/2\" drive cordless impact wrench kit to take the wheels off",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
+      "name": "Floor jack",
       "type": "tool"
     },
     {
-      "name": "1/2\" torque wrench for tightening the wheels",
-      "amazonUrl": "https://amzn.to/3Kcu48E",
+      "name": "Jack stands",
       "type": "tool"
     },
     {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Small brake caliper compressor tool",
+      "type": "tool"
+    },
+    {
+      "name": "Small flat-blade screwdriver",
+      "type": "tool"
+    },
+    {
+      "name": "Needle-nose pliers",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     },
     {
-      "name": "M8x1.25 bolt for taking the brake rotors off",
-      "amazonUrl": "https://amzn.to/3K8pQ1x",
-      "type": "part"
+      "name": "Small wire brush",
+      "type": "tool"
+    },
+    {
+      "name": "Large wire brush",
+      "type": "tool"
+    },
+    {
+      "name": "Thin wrench set",
+      "type": "tool",
+      "sizes": [
+        "17mm"
+      ]
+    },
+    {
+      "name": "Scan tool",
+      "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Intermediate",
+  "tips": [
+    {"text": "On 2016–2019 models, the electric parking brake must be manually retracted by supplying 12V power to the motor connector terminals. A 9V battery can retract the EPB motor but is much slower. For 2020-2022 model instructions, ", "link": "/lexus/2020-2022-lexus-rx350-rx450h-epb-release-rear-brake-service-mode-no-scan-tool-or-battery-needed"},
+    "Clean the EPB connector thoroughly before disconnecting — compressed air or computer duster helps release the locking tab.",
+    "Use an M8x1.25 bolt with anti-seize to remove stuck rotors instead of hammering, especially if machining them for reuse.",
+    "Never use petroleum-based grease (wheel bearing, axle, or U-joint grease) on slider pins — it will swell the rubber boots and bushings.",
+    "Use lithium-based rubber grease (Toyota/Lexus spec) on slider pins; silicone grease is acceptable but OEM grease is preferred.",
+    "Clean caliper bracket sliders thoroughly — pads must slide in with minimal effort or they won't retract properly and will wear prematurely.",
+    "After compressing the caliper piston, reseat the rubber boot with a small flat-blade screwdriver to prevent it from rolling and tearing when the pad is installed.",
+    "Pay attention to pad orientation: the inside pad (piston side) has one white mark, the outside pad has two white marks.",
+    "Place a lug nut on the hub to hold the rotor in position while installing the caliper bracket.",
+    "After reassembly, pump the brake pedal several times before starting the vehicle to take up slack from compressed pistons.",
+    "Check brake fluid level after the job — compressing pistons can cause overflow if the reservoir was previously topped up.",
+    "There is a small chance of setting a brake system fault code regardless of the EPB retraction method used — if set, it must be cleared with a good quality scan tool."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Caliper bracket bolts",
+      "spec": "111",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Caliper slide pin bolts",
+      "spec": "25",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Wheel lug nuts",
+      "spec": "76",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

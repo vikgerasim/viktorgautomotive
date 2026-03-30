@@ -4,16 +4,32 @@
   "title": "2015-2021 Lexus NX200t NX300h EPB Release - Rear Brake Service Mode, No Scan Tool Or Battery Needed",
   "youtubeId": "ispWeXHmYDo",
   "publishedAt": "2023-09-24T04:45:23Z",
-  "description": "Master Technician Viktor G shows the DIY how-to procedure.",
+  "description": "Activate electric parking brake service mode for rear brake pad replacement on 2015–2021 Lexus NX models using the DLC3 connector jumper wire method.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Autel bidirectional scan tool that I use myself",
-      "amazonUrl": "https://amzn.to/41dCLXp",
+      "name": "Scan tool",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Use a wire with insulation stripped on both ends or a metal paper clip to connect terminals 4 and 12 on the DLC3 connector.",
+    "Connect the jumper wire with the ignition off before starting the procedure.",
+    "On some models, the DLC3 connector may be installed upside down — on this model, pins 4 and 12 are counted from the left side, not the right.",
+    "This procedure applies to North American models only; other markets such as Europe and Japan may differ.",
+    "Do not touch the brake pedal when pressing the start button twice to turn the ignition on (except on newer models).",
+    "The pull/push sequence must be completed within 8 seconds of turning the ignition on.",
+    "On 2020 and newer NX models, if you get a 'release parking brake while depressing brake' message, perform the pull/push sequence with your foot on the brake pedal.",
+    "The parking brake warning light flashing rapidly confirms the sequence was accepted; flashing slowly confirms service mode is active.",
+    "Turn the ignition off before compressing the caliper and replacing the brake pads.",
+    "To exit service mode, turn the ignition on and pull the parking brake switch — wait for the warning light to stop flashing.",
+    "Remove the jumper wire from the DLC3 connector with the ignition off after the procedure is complete.",
+    "There is a small chance of setting a brake system fault code regardless of the method used — if set, it must be cleared with a good quality scan tool."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }

@@ -82,7 +82,7 @@ export default async function VideoPage({ params }: PageProps) {
               ? "bg-yellow-100 text-yellow-800"
               : "bg-red-100 text-red-800"
           }`}>
-            {video.difficulty}
+            Skill Level: {video.difficulty}
           </span>
         </div>
       )}
@@ -146,12 +146,23 @@ export default async function VideoPage({ params }: PageProps) {
             <section className="mb-6">
               <h2 className="text-lg font-bold mb-3 pb-2 border-b-2 border-red-600">Tips & Tricks</h2>
               <ul className="space-y-3">
-                {video.tips.map((tip, index) => (
-                  <li key={index} className="flex items-baseline gap-2 text-gray-700">
-                    <span className="text-red-600 font-bold flex-shrink-0">→</span>
-                    {tip}
-                  </li>
-                ))}
+                {video.tips.map((tip, index) => {
+                  const tipText = typeof tip === "string" ? tip : tip.text;
+                  const tipLink = typeof tip === "object" ? tip.link : null;
+                  return (
+                    <li key={index} className="flex items-baseline gap-2 text-gray-700">
+                      <span className="text-red-600 font-bold flex-shrink-0">→</span>
+                      {tipLink ? (
+                        <span>
+                          {tipText}{" "}
+                          <a href={tipLink} className="text-red-600 hover:underline">View Guide</a>
+                        </span>
+                      ) : (
+                        <span>{tipText}</span>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </section>
           )}
