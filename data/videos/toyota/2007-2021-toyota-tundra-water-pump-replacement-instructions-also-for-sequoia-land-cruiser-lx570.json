@@ -4,56 +4,126 @@
   "title": "2007-2021 Toyota Tundra Water Pump Replacement Instructions - Also For Sequoia, Land Cruiser, LX570",
   "youtubeId": "_SR9YV8K1bo",
   "publishedAt": "2023-09-21T01:37:00Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the water pump on a Toyota Tundra, covering coolant drain, fan and shroud removal, thermostat housing removal, pump swap, and cooling system bleeding.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Aisin (OEM Toyota supplier) water pump",
-      "amazonUrl": "https://amzn.to/46LXsuE",
+      "name": "Water pump kit AISIN WPT-804",
       "type": "part"
     },
     {
-      "name": "Gates (OEM Toyota supplier) accessory drive belt",
-      "amazonUrl": "https://amzn.to/41pHYM9",
+      "name": "Accessory drive belt Gates K080948",
       "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota coolant (2 gallons required)",
-      "amazonUrl": "https://amzn.to/3Dy8UxQ",
+      "name": "Penetrating oil spray",
+      "type": "part"
+    },
+    {
+      "name": "Coolant",
+      "type": "part"
+    },
+    {
+      "name": "Silicone grease",
+      "type": "part"
+    },
+    {
+      "name": "Brake and parts cleaner",
+      "type": "part"
+    },
+    {
+      "name": "Shop towels",
+      "type": "part"
+    },
+    {
+      "name": "Scour pads",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "12mm",
+        "14mm"
+      ]
+    },
+    {
+      "name": "Pry bar",
+      "type": "tool"
+    },
+    {
+      "name": "3/8 inch torque wrench",
+      "type": "tool"
+    },
+    {
+      "name": "Small flat-blade screwdriver",
+      "type": "tool"
+    },
+    {
+      "name": "1/4 inch impact driver",
+      "type": "tool"
+    },
+    {
+      "name": "Impact driver socket adapter set",
+      "type": "tool"
+    },
+    {
+      "name": "Drain pan",
       "type": "tool"
     },
     {
       "name": "Coolant bleeding funnel kit",
-      "amazonUrl": "https://amzn.to/3QbalKl",
       "type": "tool"
     },
     {
-      "name": "Sturdy 4 Gallon coolant drain pan",
-      "amazonUrl": "https://amzn.to/3Ou4iiu",
-      "type": "tool"
-    },
-    {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
-      "type": "tool"
-    },
-    {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3YlGxhQ",
-      "type": "tool"
-    },
-    {
-      "name": "1/4\" socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
-      "type": "tool"
-    },
-    {
-      "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
+      "name": "Trim and clip removal kit",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Advanced",
+  "tips": [
+    "Spray penetrating oil where the fan mates to the pulley and let it soak before prying; rotate the fan 90° and pry gradually in circles until it breaks free.",
+    "Once a gap forms between the fan flange and pulley, insert a screwdriver or pry bar directly into the gap to separate them.",
+    "Clean the water pump mating surface with a green Scotch-Brite pad and brake cleaner or water — never use an abrasive disc on a grinder, as it can gouge the aluminum and prevent the gasket from sealing.",
+    "Blow out all bolt holes after cleaning so no coolant or water remains inside them.",
+    "All water pump bolts go into blind holes — do not apply silicone to any bolt threads, even if old silicone residue is present.",
+    "The longer 12mm head bolt goes in a specific hole; confirm placement before torquing.",
+    "Use silicone-based grease to hold the O-ring in its groove during thermostat housing installation.",
+    "Disconnect the front coolant hose from the engine side rather than at the thermostat housing — it's easier to access.",
+    "Fill the cooling system slowly to help it self-bleed and avoid trapping air bubbles.",
+    "Bleed the system by gently revving to ~2,000 RPM and watching for bubbles; the system is fully bled when no bubbles appear and the heater blows hot at idle.",
+    "If the heater blows hot while revving but cools at idle, air is still trapped — continue bleeding."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Water pump 14mm head bolts",
+      "spec": "35",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Water pump longer 12mm head bolt",
+      "spec": "17",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Water pump short 12mm head bolts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Thermostat housing bolts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Water pump pulley bolts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }
