@@ -29,7 +29,7 @@
       "type": "part"
     },
     { 
-      "name": "Compressed Air Duster",
+      "name": "Compressed air duster",
       "type": "part"
     },
     {
@@ -44,6 +44,10 @@
     },
     {
       "name": "1/2 inch impact gun",
+      "type": "tool"
+    },
+    {
+      "name": "3/8 inch torque wrench",
       "type": "tool"
     },
     {

@@ -4,86 +4,131 @@
   "title": "2016-2022 Lexus RX350 Spark Plug Replacement Instructions",
   "youtubeId": "yIyfsKqneUg",
   "publishedAt": "2023-07-21T06:41:49Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace spark plugs on 2016–2022 Lexus RX 350, including intake manifold removal to access the rear three plugs on the V6 engine.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "DENSO (OEM Lexus/Toyota supplier) spark plugs (6-pack)",
-      "amazonUrl": "https://amzn.to/3Y3K3vQ",
+      "name": "Spark plug Denso FK20HBR8 (4)",
       "type": "part"
     },
     {
-      "name": "DENSO spark plugs (4-pack)",
-      "amazonUrl": "https://amzn.to/3U5b5BG",
+      "name": "Spark plug Denso FK20HBR8 (1)",
       "type": "part"
     },
     {
-      "name": "DENSO spark plug (single)",
-      "amazonUrl": "https://amzn.to/44FrpfW",
+      "name": "Ignition coil Denso 6731311",
       "type": "part"
     },
     {
-      "name": "DENSO (OEM Lexus/Toyota supplier) ignition coils",
-      "amazonUrl": "https://amzn.to/3Y3PsTt",
-      "type": "tool"
-    },
-    {
-      "name": "OEM Lexus/Toyota throttle body gasket",
-      "amazonUrl": "https://amzn.to/42yGwt6",
+      "name": "Intake manifold gasket 17176-31130",
       "type": "part"
     },
     {
-      "name": "OEM Lexus/Toyota intake plenum to manifold gasket",
-      "amazonUrl": "https://amzn.to/3WCEYKQ",
+      "name": "Throttle body gasket 22271-0P020",
       "type": "part"
     },
     {
-      "name": "Magnetic 5/8\" spark plug swivel socket",
-      "amazonUrl": "https://amzn.to/3Y6RRwg",
-      "type": "tool"
+      "name": "Shop towels",
+      "type": "part"
     },
     {
       "name": "Throttle body cleaner",
-      "amazonUrl": "https://amzn.to/3q4kn5k",
-      "type": "tool"
+      "type": "part"
     },
     {
-      "name": "Compressed air duster to clean the dirt off",
-      "amazonUrl": "https://amzn.to/3Qe9Sa1",
-      "type": "tool"
+      "name": "Compressed air duster",
+      "type": "part"
     },
     {
-      "name": "Auto trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
-      "type": "tool"
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "12mm"
+      ]
     },
     {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
-      "type": "tool"
-    },
-    {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3RP95ga",
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
       "name": "Impact driver socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
       "type": "tool"
     },
     {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Trim and clip removal kit",
+      "type": "tool"
+    },
+    {
+      "name": "5/8 inch spark plug swivel socket",
+      "type": "tool"
+    },
+    {
+      "name": "Small flat-blade screwdriver",
+      "type": "tool"
+    },
+    {
+      "name": "1/4 inch torque wrench",
+      "type": "tool"
+    },
+    {
+      "name": "3/8 inch torque wrench",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Intermediate",
+  "tips": [
+    "Use a small flat-blade screwdriver under the MAF sensor connector tab to help release stubborn connectors.",
+    "Remove the air filter before pulling the intake lid to avoid dropping dirt on top of it.",
+    "Clean the throttle body while it's off — spray brake cleaner onto a rag, open the throttle plate with your finger, and wipe the interior.",
+    "Check the throttle body O-ring gasket; if it sticks to the throttle body, reseat it in its groove. Replace only if damaged or deformed.",
+    "Blow off accumulated dirt from the intake manifold surface before removal so debris doesn't fall into the intake runners.",
+    "Plug or cover the intake runner openings with a rag after manifold removal to prevent bolts, nuts, or dirt from falling in.",
+    "Inspect the upper-to-lower manifold O-ring gaskets — replace if cracked or dry; Lexus recommends replacing them every time.",
+    "You don't need to mark ignition coils before removal — they are all identical and interchangeable.",
+    "Anti-seize on spark plug threads is not necessary; these plugs rarely seize.",
+    "If you don't have a torque wrench for the spark plugs, tighten until the gasket crushes and resistance increases, then add a small amount more.",
+    "For rear spark plugs, use a combination of ~3-inch extensions; an electric or air ratchet speeds this up significantly.",
+    "Install all intake manifold bolts and nuts finger-tight first, then torque in a crisscross pattern to load the gasket evenly."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Spark plugs",
+      "spec": "13",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Ignition coil bolts",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Intake manifold bolts and nuts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Intake manifold bracket bolt",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "EVAP purge valve bolt",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Throttle body bolts",
+      "spec": "7",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }
