@@ -4,36 +4,73 @@
   "title": "2010-2015 Lexus RX350 RX450h Outer Taillight LED Brake Light Lens Housing Replacement Instructions",
   "youtubeId": "tLu_tyl9Gds",
   "publishedAt": "2023-09-25T00:24:19Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the outer tail light assembly on a 2010-2015 Lexus RX350 and RX450h, covering trim removal, connector access, bulb transfer, and reinstallation.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Auto trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
+      "name": "Outer tail lights 2010-2012 RX",
+      "type": "part"
+    },
+    {
+      "name": "Outer tail lights 2013-2015 RX",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm"
+      ]
+    },
+    {
+      "name": "1/4 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3YlGxhQ",
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
-      "name": "1/4\" socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "name": "Impact driver socket adapter set",
       "type": "tool"
     },
     {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Trim and clip removal kit",
+      "type": "tool"
+    },
+    {
+      "name": "Small flat-blade screwdriver",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "You do not need to remove the entire interior panel to disconnect the wiring connectors — use a small screwdriver to unclip them through the opening instead.",
+    "Be careful not to drop the three 10mm nuts inside the vehicle — they can roll around and cause rattling noise and may be difficult to retrieve.",
+    "The studs are intentionally long on this vehicle, which helps prevent nuts from sliding off during removal.",
+    "The top mounting nut is harder to reach — loosen it with a small ratchet and finish by hand.",
+    "The replacement tail light assembly may not come with bulbs — transfer the bulb sockets from the old unit.",
+    "When reinstalling the tail light, align the green clip with its slot first, then line up the bolt holes before sliding it in.",
+    "When reinstalling trim panels, make sure the weather stripping is not caught underneath."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Tail light assembly mounting nuts",
+      "spec": "4",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Cargo hook bolt",
+      "spec": "5",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

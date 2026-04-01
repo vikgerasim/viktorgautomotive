@@ -4,71 +4,170 @@
   "title": "2007-2021 Toyota Tundra Engine Starter Removal And Installation Instructions",
   "youtubeId": "7lAbWTV-b_s",
   "publishedAt": "2024-07-14T19:52:32Z",
-  "description": "Master Technician Viktor G shows the DIY how-to starter replacement procedure for a Tundra with the 5.7 L engine.",
+  "description": "Replace the starter assembly on a 2007-2021 Toyota Tundra 5.7L, also applicable to Sequoia, Land Cruiser LC200, and Lexus LX570. Requires exhaust manifold removal.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "DENSO (OEM Toyota supplier) remanufactured starter",
-      "amazonUrl": "https://amzn.to/3Lgfz3O",
-      "type": "tool"
-    },
-    {
-      "name": "DENSO (OEM Toyota supplier) remanufactured starter",
-      "amazonUrl": "https://ebay.us/sRyv0B",
-      "type": "tool"
-    },
-    {
-      "name": "OEM Toyota right side exhaust manifold gasket",
-      "amazonUrl": "https://amzn.to/4cWglid",
+      "name": "Starter assembly (remanufactured) Denso 280-1019",
       "type": "part"
     },
     {
-      "name": "OEM Toyota right side exhaust air injection pipe flange gasket",
-      "amazonUrl": "https://amzn.to/4eXqhcQ",
+      "name": "Exhaust manifold gasket 17173-38020",
       "type": "part"
     },
     {
-      "name": "OEM Toyota exhaust mid-pipe gaskets",
-      "amazonUrl": "https://amzn.to/3LB0SZn",
+      "name": "Air injection pipe flange gasket 17377-50010",
       "type": "part"
     },
     {
-      "name": "Truck jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
+      "name": "Exhaust mid-pipe gasket 90917-A6002",
+      "type": "part"
+    },
+    {
+      "name": "Penetrating oil spray",
+      "type": "part"
+    },
+    {
+      "name": "Scour pads",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "12mm",
+        "14mm",
+        "22mm"
+      ]
+    },
+    {
+      "name": "Trim and clip removal kit",
       "type": "tool"
     },
     {
-      "name": "1/2\" drive cordless impact wrench kit",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
+      "name": "1/2 inch impact gun",
       "type": "tool"
     },
     {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
-      "type": "tool"
-    },
-    {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3RP95ga",
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
       "name": "Impact driver socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "type": "tool"
+    },
+    {
+      "name": "1/4 inch torque wrench",
+      "type": "tool"
+    },
+    {
+      "name": "3/8 inch torque wrench",
+      "type": "tool"
+    },
+    {
+      "name": "Jack stands",
+      "type": "tool"
+    },
+    {
+      "name": "Floor jack",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     },
     {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
+      "name": "Pry bar",
+      "type": "tool"
+    },
+    {
+      "name": "Needle-nose pliers",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Advanced",
+  "tips": [
+    "Apply penetrating oil to all exhaust nuts before removal as they are usually rusty",
+    "Use a shallow 12mm 1/4 inch socket on a swivel with a 1/4 inch extension, then an adapter to 3/8 and a 3/8 extension and ratchet to reach all passenger side exhaust manifold nuts",
+    "Make sure the socket isn't so shallow that it doesn't clear over the stud, or it won't grab the nut fully and may round it off",
+    "The two most challenging nuts are the top front nut and the one second from the front on the top row",
+    "Clean the cylinder head mating surface with a sharp razor blade then smooth with a scour pad — do not use a grinder or power wheel as it can damage the aluminum and cause exhaust leaks",
+    "The manifold is steel so a grinder or wire wheel can be used on it carefully, but avoid aggressive sandpaper wheels",
+    "Remove the bolt holding the transmission coolant pipes to gain access to the top 14mm starter bolt",
+    "The starter may be stuck and require gentle prying to remove",
+    "Remove the small heat shield nuts to make exhaust manifold removal easier",
+    "Plug in the single wire connector before installing the main 12mm starter terminal nut"
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Starter bolts",
+      "spec": "27",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Transmission coolant pipe bolt",
+      "spec": "12",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Starter main terminal nut (12mm)",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Starter cover heat shield bolts",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Exhaust manifold 12mm nuts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Exhaust manifold 10mm nuts",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Small heat shield nuts",
+      "spec": "4",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Large manifold heat shield nuts",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Dipstick tube bolt",
+      "spec": "6",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Heat shield nuts (4)",
+      "spec": "4",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Exhaust pipe nuts (3)",
+      "spec": "40",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Exhaust pipe bolts (downstream)",
+      "spec": "35",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Wheel lug nuts",
+      "spec": "97",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

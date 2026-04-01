@@ -4,12 +4,12 @@
   "title": "2007-2021 Toyota Tundra Fuel Pump Replacement Instructions",
   "youtubeId": "opOfwdG0Fho",
   "publishedAt": "2023-09-21T00:13:01Z",
-  "description": "Replace the fuel pump on a 2007 and up Toyota Tundra, including full tank drop, basket disassembly, pump swap, strainer replacement, and reinstallation.",
+  "description": "Replace the fuel pump on a 2007-2021 Toyota Tundra, including full tank drop, basket disassembly, pump swap, strainer replacement, and reinstallation.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Fuel pump strainer (Denso 95200093)",
+      "name": "Fuel pump strainer Denso 952-0093",
       "type": "part"
     },
     {
@@ -73,6 +73,7 @@
   "transcript": "",
   "difficulty": "Advanced",
   "tips": [
+    "Note that the fuel pump and the replacement procedure on the flex-fuel trucks is somewhat different and will require some additional steps.",
     "Run the tank as low as possible before starting — 100L of fuel weighs over 160 lbs.",
     "Wear goggles and have a rag or drain pan ready when disconnecting fuel lines, as fuel will spill out.",
     "When lowering the tank, go slowly to avoid ripping the fuel pump wiring harness connector.",

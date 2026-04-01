@@ -4,66 +4,133 @@
   "title": "2007-2021 Toyota Tundra Alternator Replacement Instructions - Also For Sequoia, Land Cruiser, LX570",
   "youtubeId": "s-mk-Se7VNQ",
   "publishedAt": "2024-07-07T21:08:34Z",
-  "description": "Master Technician Viktor G shows the DIY how-to alternator/generator removal and installation procedure.",
+  "description": "Remove and replace the alternator on a 20007-2021 Toyota Tundra, including sway bar, power steering pump, and transmission oil cooler line bracket removal for access.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "DENSO (OEM Toyota supplier) 100 Amp remanufactured alternator",
-      "amazonUrl": "https://amzn.to/3WbiQYl",
+      "name": "Alternator 130A (remanufactured) Denso 210-1157",
+      "type": "part"
+    },
+    {
+      "name": "Alternator 150A (remanufactured) Denso 210-1147",
+      "type": "part"
+    },
+    {
+      "name": "Penetrating oil spray",
+      "type": "part"
+    },
+    {
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "12mm",
+        "14mm",
+        "17mm",
+        "22mm"
+      ]
+    },
+    {
+      "name": "1/2 inch impact gun",
       "type": "tool"
     },
     {
-      "name": "DENSO (OEM Toyota supplier) 130 Amp remanufactured alternator",
-      "amazonUrl": "https://amzn.to/3XTidUE",
+      "name": "1/2 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "DENSO (OEM Toyota supplier) 150 Amp remanufactured alternator",
-      "amazonUrl": "https://amzn.to/3LeYo2t",
+      "name": "3/8 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "Truck jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
+      "name": "1/4 inch torque wrench",
       "type": "tool"
     },
     {
-      "name": "1/2\" drive cordless impact wrench kit to take the wheel off",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
-      "type": "tool"
-    },
-    {
-      "name": "1/2\" torque wrench for tightening the wheel",
-      "amazonUrl": "https://amzn.to/3Kcu48E",
-      "type": "tool"
-    },
-    {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
-      "type": "tool"
-    },
-    {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3RP95ga",
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
       "name": "Impact driver socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "type": "tool"
+    },
+    {
+      "name": "Trim and clip removal kit",
+      "type": "tool"
+    },
+    {
+      "name": "Pry bar",
+      "type": "tool"
+    },
+    {
+      "name": "Jack stands",
+      "type": "tool"
+    },
+    {
+      "name": "Floor jack",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
-      "type": "tool"
-    },
-    {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Advanced",
+  "tips": [
+    "Access the accessory belt tensioner from the bottom — it's very difficult to see from the top.",
+    "Apply penetrating oil to the power steering pump bracket to help it slide out.",
+    "Tap the metal insert on the power steering pump mount rearward to spread the gap and ease reinstallation; apply lubricant to the mating surfaces.",
+    "Unbolt the sway bar before attempting to remove the alternator — it's nearly impossible to extract from the bottom with it in place, and removal also improves ratchet access to the lower alternator bolts.",
+    "Remove the 12mm bolt holding the transmission oil cooler lines to the engine oil pan so the lines can be moved out of the way of the lower alternator bolts.",
+    "Disconnect the oil pressure sensor and nearby harness clips to gain enough clearance to extract the alternator.",
+    "Check the two alignment dowel sleeves after removal — they can stay stuck in the block or in the alternator; ensure one is seated at each location before reinstalling.",
+    "The alternator sits on a stud at the top, so the top bolt will come out but the alternator won't drop until pried off the stud.",
+    "Moving the power steering pump as far forward as possible before unbolting the alternator gives better access to the top nut and bolt."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Alternator bolts and nut (3 bolts, 1 nut)",
+      "spec": "32",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Alternator bracket bolt",
+      "spec": "23",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Alternator main harness nut",
+      "spec": "7",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Transmission oil cooler hose bolts",
+      "spec": "15",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Power steering pump bolts",
+      "spec": "21",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Wheel lug nuts",
+      "spec": "97",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Sway bar end link bolts",
+      "spec": "51",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Sway bar mounting bolts",
+      "spec": "89",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

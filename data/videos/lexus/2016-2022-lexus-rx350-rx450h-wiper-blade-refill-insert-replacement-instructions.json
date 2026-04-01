@@ -4,36 +4,40 @@
   "title": "2016-2022 Lexus RX350 RX450h Wiper Blade Refill Insert Replacement Instructions",
   "youtubeId": "smPBQQ-LDnk",
   "publishedAt": "2023-09-21T19:51:18Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace front and rear wiper blade refill inserts on 2016-2022 Lexus RX 350 and RX 450h models, including rear wiper service position procedure.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Genuine Lexus/Toyota wiper refill front driver side",
-      "amazonUrl": "https://amzn.to/49VwljP",
-      "type": "tool"
+      "name": "Wiper refills 85223-0E011 85213-0E011",
+      "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota wiper refill front passenger side",
-      "amazonUrl": "https://amzn.to/3RphKWr",
-      "type": "tool"
+      "name": "Wiper refill 85214-0E050",
+      "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota wiper refill rear (RX350 and RX450h)",
-      "amazonUrl": "https://amzn.to/43ISeOX",
-      "type": "tool"
+      "name": "Wiper refill 85214-42040",
+      "type": "part"
     },
     {
-      "name": "Genuine Lexus/Toyota wiper refill rear (RX350L and RX450hL)",
-      "amazonUrl": "https://amzn.to/3Rp7CwU",
-      "type": "tool"
-    },
-    {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Small flat-blade screwdriver",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Identify the correct disassembly side on the front wiper blade by looking for the crimped end of the rubber refill — always disassemble from the crimped side.",
+    "To put the rear wiper into service position, turn the rear wiper on with ignition off, then briefly press the start button twice without your foot on the brake, and turn ignition off once the wiper swings all the way down.",
+    "When installing the rear wiper refill, start at an angle from either side — it will be difficult near the end but push it all the way in.",
+    "After installing the rear refill, use a small flat-blade screwdriver to pop in any rubber pieces that aren't fully engaged in the wiper blade, moving it back and forth on both sides.",
+    "The front wiper refills 85223-0E011 85213-0E011 are the same for both the regular and long models, but the rear wiper refill differs between those models.",
+    "85214-0E050 is for the rear of the regular RX350 and RX450h models, and 85214-42040 is for the rear of the long RX350L and RX450hL models.",
+    "When removing the rear wiper blade, lift the arm slightly, twist the blade and pull it down to unhook it.",
+    "Transfer the metal support rails from the old rear refill to the new one, sliding them in from each side."
+  ],
+  "torque_specs": [],
+  "enriched": true
 }
