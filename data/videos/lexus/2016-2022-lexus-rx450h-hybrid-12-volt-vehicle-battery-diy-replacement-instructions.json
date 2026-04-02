@@ -4,41 +4,77 @@
   "title": "2016-2022 Lexus RX450h Hybrid 12 Volt Vehicle Battery DIY Replacement Instructions",
   "youtubeId": "AIcRFlvmSIs",
   "publishedAt": "2023-10-09T04:34:00Z",
-  "description": "Master Technician Viktor G shows the DIY how-to removal and installation procedure.",
+  "description": "Replace the vehicle battery on 2016-2022 Lexus RX450H models, located inside the rear hatch area behind a trim panel.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Replacement Optima battery",
-      "amazonUrl": "https://amzn.to/3NdNlI5",
+      "name": "Battery AGM Group 47",
       "type": "part"
     },
     {
       "name": "Battery terminal protector spray",
-      "amazonUrl": "https://amzn.to/3Ozx5Ta",
       "type": "part"
     },
     {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/4f1UN4A",
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm"
+      ]
+    },
+    {
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
-      "name": "1/4” socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "name": "Impact driver socket adapter set",
       "type": "tool"
     },
     {
-      "name": "Small flat blade screwdriver set",
-      "amazonUrl": "https://amzn.to/44HUoQi",
+      "name": "Small flat-blade screwdriver",
       "type": "tool"
     },
     {
-      "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
+      "name": "Trim and clip removal kit",
+      "type": "tool"
+    },
+    {
+      "name": "1/4 inch torque wrench",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Disconnect the negative terminal before the positive terminal when removing, and install positive first when reinstalling.",
+    "Disconnect the small connector near the negative terminal to gain more working space.",
+    "Don't forget to disconnect the vent hose on the side of the battery before removal — it vents fumes out of the vehicle interior.",
+    "After battery replacement, the power hatch won't close automatically — manually close it with your hands to initialize it.",
+    "After initialization, verify the hatch opens and closes normally before finishing.",
+    "A park assist malfunction light may appear after battery replacement — drive in a straight line at over 40 mph for 5-10 seconds to clear it.",
+    "Apply battery terminal protective spray to prevent corrosion on the terminals.",
+    "When reinstalling push pins, press them out first so they're in the correct position before inserting — installing them in the wrong position means they won't hold.",
+    "Press push pins until flush only — going too far will cause them to loosen again.",
+    "Start the vehicle after completion and check for warning lights on the dash."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Battery hold-down bracket bolt and nut",
+      "spec": "5",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Positive battery terminal clamp",
+      "spec": "5",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Negative battery terminal clamp",
+      "spec": "5",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

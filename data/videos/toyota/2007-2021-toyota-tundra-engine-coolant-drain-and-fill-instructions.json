@@ -4,56 +4,76 @@
   "title": "2007-2021 Toyota Tundra Engine Coolant Drain And Fill Instructions",
   "youtubeId": "_8et5LwGKRg",
   "publishedAt": "2024-07-11T20:21:40Z",
-  "description": "Master Technician Viktor G shows the DIY how-to coolant replacement procedure on a 5.7 L Tundra.",
+  "description": "Drain and refill engine coolant on a 2007-2021 Toyota Tundra 5.7L, including block drain and proper bleeding procedure to avoid air locks.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Genuine Toyota coolant (3 gallons required)",
-      "amazonUrl": "https://amzn.to/4nlPCAF",
-      "type": "tool"
-    },
-    {
-      "name": "Coolant bleeding funnel kit",
-      "amazonUrl": "https://amzn.to/3QbalKl",
-      "type": "tool"
-    },
-    {
-      "name": "Sturdy 4 Gallon coolant drain pan",
-      "amazonUrl": "https://amzn.to/3Ou4iiu",
-      "type": "tool"
-    },
-    {
-      "name": "5/16\" drain hose",
-      "amazonUrl": "https://amzn.to/43E0cJa",
+      "name": "Coolant",
       "type": "part"
     },
     {
-      "name": "Automotive trim and clip removal kit",
-      "amazonUrl": "https://amzn.to/3KgKGfg",
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm",
+        "22mm"
+      ]
+    },
+    {
+      "name": "Coolant bleeding funnel kit",
       "type": "tool"
     },
     {
-      "name": "Truck jack stands",
-      "amazonUrl": "https://amzn.to/3q6VS7t",
+      "name": "Drain pan",
       "type": "tool"
     },
     {
-      "name": "1/2\" drive cordless impact wrench kit",
-      "amazonUrl": "https://amzn.to/3Kcw00I",
+      "name": "Trim and clip removal kit",
       "type": "tool"
     },
     {
-      "name": "3/8\" drive flex head digital torque wrench",
-      "amazonUrl": "https://amzn.to/3O1EOru",
+      "name": "Jack stands",
+      "type": "tool"
+    },
+    {
+      "name": "Floor jack",
+      "type": "tool"
+    },
+    {
+      "name": "5/16 inch ID drain hose",
+      "type": "tool"
+    },
+    {
+      "name": "1/2 inch impact gun",
+      "type": "tool"
+    },
+    {
+      "name": "1/2 inch torque wrench",
       "type": "tool"
     },
     {
       "name": "Rechargeable LED mini work light",
-      "amazonUrl": "https://amzn.to/3Y74OpY",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Make sure the engine is cold before opening the radiator cap to avoid burns.",
+    "Draining only the passenger side block drain is sufficient; the opposite side yields virtually nothing.",
+    "Pour coolant in slowly and patiently to avoid creating an air lock.",
+    "Bleed the system by revving the engine up and down with the heat set to max hot until hot air blows at idle.",
+    "You know the system is fully bled when the truck idles for about a minute without throttle input and still blows hot air from the vents.",
+    "Overfill the coolant reservoir slightly above the full mark when hot, because the full mark is calibrated for cold coolant and it will suck some back as it cools."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Wheel lug nuts",
+      "spec": "97",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }

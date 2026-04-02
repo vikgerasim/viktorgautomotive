@@ -4,31 +4,71 @@
   "title": "2021-2024 Toyota Sienna Hybrid 12 Volt Vehicle Auxiliary Battery Replacement Instructions",
   "youtubeId": "XeJcVkGLjik",
   "publishedAt": "2024-01-06T20:20:44Z",
-  "description": "Master Technician Viktor G shows the DIY removal and installation procedure.",
+  "description": "Replace the 12V auxiliary battery on 2021-2026 Toyota Sienna hybrid, including bracket removal, vent hose reconnection, and system reinitialization.",
   "models": [],
   "years": "",
   "items": [
     {
-      "name": "Replacement ACDelco battery",
-      "amazonUrl": "https://amzn.to/3vs9Lzz",
+      "name": "Battery AGM Group 47",
       "type": "part"
     },
     {
       "name": "Battery terminal protector spray",
-      "amazonUrl": "https://amzn.to/3Ozx5Ta",
       "type": "part"
     },
     {
-      "name": "1/4\" impact driver kit",
-      "amazonUrl": "https://amzn.to/3RP95ga",
+      "name": "Socket and ratchet set",
+      "type": "tool",
+      "sizes": [
+        "10mm"
+      ]
+    },
+    {
+      "name": "1/4 inch impact driver",
       "type": "tool"
     },
     {
       "name": "Impact driver socket adapter set",
-      "amazonUrl": "https://amzn.to/44XTTkI",
+      "type": "tool"
+    },
+    {
+      "name": "1/4 inch torque wrench",
       "type": "tool"
     }
   ],
   "timestamps": [],
-  "transcript": ""
+  "transcript": "",
+  "difficulty": "Beginner",
+  "tips": [
+    "Always disconnect the negative terminal first to prevent arcing if the wrench contacts the vehicle body.",
+    "Reconnect the positive terminal first before the negative when reinstalling.",
+    "Use a vented AGM battery when replacing a hybrid auxiliary battery located inside the vehicle compartment.",
+    "Do not overtighten the battery hold-down bracket — overtightening can squeeze and deform the battery case.",
+    "Tighten battery bracket and terminal clamps to approximately 5 ft-lbs or until snug.",
+    "Ensure the negative terminal clamp is fully seated down on the post before tightening, or it won't grip properly.",
+    "Leave sliding doors closed before disconnecting the battery to avoid needing reinitialization, or be prepared to manually close them slowly to initialize.",
+    "After reconnection, initialize the power hatch by closing it slowly by hand.",
+    "Initialize the backup camera steering lines by turning the steering wheel full lock in each direction if the lines are lost.",
+    "An ICS warning light or lane keep assist warning after battery replacement can be cleared by driving straight over 40 mph for approximately 5 seconds.",
+    "After reinstallation, inspect vent hose routing to ensure it is not pinched behind the battery.",
+    "Apply battery terminal protective spray after reconnection to prevent corrosion."
+  ],
+  "torque_specs": [
+    {
+      "fastener": "Battery hold-down bracket bolt and nut",
+      "spec": "5",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Positive battery terminal clamp",
+      "spec": "5",
+      "unit": "ft-lbs"
+    },
+    {
+      "fastener": "Negative battery terminal clamp",
+      "spec": "5",
+      "unit": "ft-lbs"
+    }
+  ],
+  "enriched": true
 }
